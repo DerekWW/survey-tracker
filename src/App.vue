@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <navbar></navbar>
-    <router-view></router-view>
+    <main>
+      <router-view></router-view>
+    </main>
     <foot></foot>
   </div>
 </template>
@@ -26,7 +28,12 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  flex: 1 0 auto;
 }
 
 body {

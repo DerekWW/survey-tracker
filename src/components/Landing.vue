@@ -1,7 +1,7 @@
 <template>
-  <main>
+  <div>
     This is the Routes
-  </main>
+  </div>
 </template>
 
 <script>
