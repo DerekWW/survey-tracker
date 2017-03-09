@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import hello from 
 export default {
   name: 'landing',
   data() {
@@ -15,11 +14,9 @@ export default {
       msg: 'Welcome to Your Vue.js App',
     };
   },
-  // methods: {
-  //   oauthLogins: () => {
-  //     hello('google').login();
-  //   },
-  // },
+  methods: {
+
+  },
 };
 </script>
 
