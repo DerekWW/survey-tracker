@@ -7,6 +7,7 @@
 </template>
 
 <script>
+import hello from 
 export default {
   name: 'landing',
   data() {
