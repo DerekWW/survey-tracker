@@ -1,6 +1,8 @@
 <template>
   <div>
-    This is the Routes
+    <a class="waves-effect waves-light btn-large">Login with Google</a>
+    <!-- <button v-on:click="oauthLogins">Google</button> -->
+
   </div>
 </template>
 
@@ -12,26 +14,23 @@ export default {
       msg: 'Welcome to Your Vue.js App',
     };
   },
+  // methods: {
+  //   oauthLogins: () => {
+  //     hello('google').login();
+  //   },
+  // },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
+
+div {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
 </style>
