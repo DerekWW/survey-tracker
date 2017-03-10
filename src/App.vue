@@ -2,16 +2,16 @@
   <div id="app">
     <navbar></navbar>
     <main>
-      <router-view></router-view>
+      <router-view v-bind:logged-on="loggedOn"></router-view>
     </main>
     <foot></foot>
   </div>
 </template>
 
 <script>
-
 import navbar from './components/Navbar';
 import foot from './components/Footer';
+
 
 
 export default {
@@ -20,7 +20,19 @@ export default {
     navbar,
     foot,
   },
+  data() {
+    return {
+      loggedOn: false,
+    };
+  },
+  methods: {
+    oAuth: function () {
+      console.log('swag');
+    },
+
+  },
 };
+
 </script>
 
 <style>

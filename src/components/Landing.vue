@@ -17,6 +17,7 @@ export default {
   methods: {
 
   },
+  props: ['loggedOn'],
 };
 </script>
 
